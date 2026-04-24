@@ -1,1 +1,3 @@
-theme: jekyll-theme-merlot
+remote-theme: mmistakes/so-simple-theme@latest
+plugins:
+  - jekyll-remote-theme
