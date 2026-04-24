@@ -1,1 +1,8 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
+
+domain: "blog.lokewt.com"
+url: "https://blog.lokewt.com"
+
+title: "Isaac's Site"
+description: "Just some stuff Isaac writes"
+locale: "en"
