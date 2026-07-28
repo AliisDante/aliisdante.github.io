@@ -13,6 +13,6 @@ Thank you!
 # Posts
 
 {% for post in site.posts %}
-[{{ post.title }}]({{ post.url | relative_url }})
+### [{{ post.title }}]({{ post.url | relative_url }}) on {{ post.date | date_to_long_string: "ordinal" }}
 
 {% endfor %}
