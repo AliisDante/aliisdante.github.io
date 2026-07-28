@@ -9,3 +9,10 @@ I'm not really sure what to do with this blog yet but I want to share more about
 I'm also kinda practising Markdown so please forgive any formatting mistakes.
 
 Thank you!
+
+# Posts
+
+{% for post in site.posts %}
+[{{ post.title }}]({{ post.url | relative_url }})
+
+{% endfor %}
