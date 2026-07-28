@@ -5,4 +5,13 @@ url: "https://blog.lokewt.com"
 
 title: "Isaac's Site"
 description: "Just some stuff Isaac writes"
-locale: "en"
+lang: "en-US"
+author: "Isaac"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
